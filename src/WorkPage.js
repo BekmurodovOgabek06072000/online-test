@@ -262,7 +262,7 @@ export const WorkPage = ({ Test, Page, setTest, Time ,setTime}) => {
                                         {
                                             eee.variantlar.map(ww => {
                                                 return (
-                                                    <button disabled={eee.check ? true : false} style={{ backgroundColor: ww.color }} onClick={() => { JavobBelgilash(eee.number, ww.variant) }} className='Variantlar ripple'>
+                                                    <button  style={{ backgroundColor: ww.color }} onClick={  eee.check ? ()=>{} : () => {  JavobBelgilash(eee.number, ww.variant) }} className='Variantlar ripple'>
                                                         {ww.variant}
                                                     </button>
                                                 )
