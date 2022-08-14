@@ -1,0 +1,124 @@
+.Navbar{
+  width: 100%;
+  height: 60px;
+  background-color: rgb(179, 179, 179);
+}
+.Navbar ul{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Navbar ul li{
+  width: 33.33%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.CheckTestNumber{
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.CheckTestNumberDiv{
+  width: 80%;
+}
+.TestCheck{
+  width: 100%;
+  margin-top: 5px;
+}
+.TestCheck select{
+  width: 100%;
+  
+  border: none;
+  border-bottom: 1.5px solid blue;
+  background-color: transparent;
+}
+.App{
+  
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.App button{
+ width: 100%;
+ padding: 5px;
+ border: none;
+ border-radius: 9px;
+ margin-top: 10px;
+}
+.ButtonGroup{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ContainerButton{
+  width: 80%;
+  padding: 10px;
+}
+.ContainerButton button{
+  width: 100px;
+  height: 40px;
+  border: 1px solid rgb(179, 179, 179);
+}
+.ContaineRequest{
+  width: 80%;
+  padding: 10px;
+  
+  border-radius: 9px;
+}
+.Request{
+  width: 100%;
+  padding: 20px;
+  background-color: rgb(179, 179, 179);
+  border-top-left-radius: 9px;
+  border-top-right-radius: 9px;
+}
+.Variantlar{
+  width: 100%;
+  padding: 10px;
+  text-align: left;
+  border: none;
+  border-left: 1px solid rgb(179, 179, 179);
+  border-right: 1px solid rgb(179, 179, 179);
+
+}
+.checktest{
+  border-bottom-left-radius: 9px;
+  border-bottom-right-radius: 9px;
+}
+.ripple {
+  position: relative;
+  display: inline block;
+  
+
+  overflow: hidden;
+}
+
+
+
+.ripple > span {
+  position: absolute;
+  background: rgba(218, 218, 218, 0.123);
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  border-radius: 50%;
+  animation: rippleffect 1s linear infinite;
+}
+
+@keyframes rippleffect {
+  0% {
+    height: 0;
+    width: 0;
+  }
+  100% {
+    height: 500px;
+    width: 500px;
+  }
+}
